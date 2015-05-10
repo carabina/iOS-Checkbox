@@ -13,6 +13,10 @@
 		DF2287A21AE88437009D13F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2287A11AE88437009D13F5 /* Images.xcassets */; };
 		DF2287A51AE88437009D13F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF2287A31AE88437009D13F5 /* LaunchScreen.xib */; };
 		DF2287B11AE88437009D13F5 /* CheckboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2287B01AE88437009D13F5 /* CheckboxTests.swift */; };
+		DF2287BB1AE88443009D13F5 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2287BA1AE88443009D13F5 /* Checkbox.swift */; };
+		DF4B08B51B00061D0048283C /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = DF4B08B31B00061D0048283C /* LICENSE.md */; };
+		DF4B08B61B00061D0048283C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DF4B08B41B00061D0048283C /* README.md */; };
+		DF4B08B91B0006710048283C /* AppPreview.png in Resources */ = {isa = PBXBuildFile; fileRef = DF4B08B81B0006710048283C /* AppPreview.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		DF2287AA1AE88437009D13F5 /* CheckboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF2287AF1AE88437009D13F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF2287B01AE88437009D13F5 /* CheckboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxTests.swift; sourceTree = "<group>"; };
+		DF2287BA1AE88443009D13F5 /* Checkbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		DF4B08B31B00061D0048283C /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		DF4B08B41B00061D0048283C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DF4B08B81B0006710048283C /* AppPreview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppPreview.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,9 @@
 		DF22878C1AE88437009D13F5 = {
 			isa = PBXGroup;
 			children = (
+				DF4B08B31B00061D0048283C /* LICENSE.md */,
+				DF4B08B41B00061D0048283C /* README.md */,
+				DF4B08B71B0006640048283C /* Images */,
 				DF2287971AE88437009D13F5 /* Checkbox */,
 				DF2287AD1AE88437009D13F5 /* CheckboxTests */,
 				DF2287961AE88437009D13F5 /* Products */,
@@ -79,6 +90,7 @@
 			children = (
 				DF22879A1AE88437009D13F5 /* AppDelegate.swift */,
 				DF22879C1AE88437009D13F5 /* ViewController.swift */,
+				DF2287BA1AE88443009D13F5 /* Checkbox.swift */,
 				DF22879E1AE88437009D13F5 /* Main.storyboard */,
 				DF2287A11AE88437009D13F5 /* Images.xcassets */,
 				DF2287A31AE88437009D13F5 /* LaunchScreen.xib */,
@@ -110,6 +122,14 @@
 				DF2287AF1AE88437009D13F5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF4B08B71B0006640048283C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DF4B08B81B0006710048283C /* AppPreview.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF4B08B91B0006710048283C /* AppPreview.png in Resources */,
 				DF2287A01AE88437009D13F5 /* Main.storyboard in Resources */,
 				DF2287A51AE88437009D13F5 /* LaunchScreen.xib in Resources */,
 				DF2287A21AE88437009D13F5 /* Images.xcassets in Resources */,
@@ -212,8 +233,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF4B08B51B00061D0048283C /* LICENSE.md in Sources */,
 				DF22879D1AE88437009D13F5 /* ViewController.swift in Sources */,
+				DF4B08B61B00061D0048283C /* README.md in Sources */,
 				DF22879B1AE88437009D13F5 /* AppDelegate.swift in Sources */,
+				DF2287BB1AE88443009D13F5 /* Checkbox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +435,7 @@
 				DF2287B61AE88437009D13F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF2287B71AE88437009D13F5 /* Build configuration list for PBXNativeTarget "CheckboxTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +444,7 @@
 				DF2287B91AE88437009D13F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
